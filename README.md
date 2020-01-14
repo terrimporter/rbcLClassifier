@@ -7,11 +7,11 @@ Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA seque
 
 ### v1
 
-The rbcLv1_training.tar.gz file should be decompressed.  The folder contains the original taxonomy and fasta files that are included here for reference only. 
+The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments to the genus rank.  
 
-The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments to the genus rank.
+### v1-ref
 
-The rbcLv1_training.tar.gz file should be decompressed.  The folder contains the original taxonomy and fasta files that are included here for reference only.  They were originally mined from GenBank in January 2020.  Only sequences identified to the species rank in the NCBI nucleotide database.  All sequences here are at least 500bp long and have been screened to remove any bacterial contaminant sequences.  Taxonomic composition is largely Eukaryota with some Bacterial outgroup taxa.  
+The rbcLv1-ref_training.tar.gz file should be decompressed.  The folder contains the original taxonomy and fasta files that are included here for reference only.  Sequences were mined from the NCBI nucleotide database in January 2020 and only includes sequences identified to the species rank that are at least 500bp long.  The sequences have been screened to remove any potential bacterial contaminant sequences.  Taxonomic composition is largely Eukaryota with some Bacterial outgroup taxa.  
 
 # How to use
 
