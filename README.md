@@ -65,6 +65,10 @@ For additional information on how to run the RDP classifier, see the RDPclassifi
 The RDP classifier v2.12 can be downloaded from:
 https://sourceforge.net/projects/rdp-classifier/
 
+# References
+
+Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New Bacterial Taxonomy. Applied and Environmental Microbiology, 73(16), 5261–5267. Available from https://sourceforge.net/projects/rdp-classifier/
+
 # Acknowledgements
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
