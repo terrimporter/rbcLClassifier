@@ -6,7 +6,6 @@ This repository contains training sets that can be used with the Ribosomal Datab
 
 If you use this rbcL reference set in a publication, please add a link to this page to acknowledge this reference database and if you use the rbcL classifier, please cite:
 
-## The RDP classifier 
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.  Applied and Environmental Microbiology, 73: 5261.
 
 ### v1
