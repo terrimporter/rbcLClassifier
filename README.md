@@ -8,6 +8,8 @@ If you use this rbcL reference set in a publication, please add a link to this p
 
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.  Applied and Environmental Microbiology, 73: 5261.
 
+# Releases
+
 ### v1
 
 The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments to the genus rank.  
