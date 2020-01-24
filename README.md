@@ -14,7 +14,7 @@ The rbcLv1_trained.tar.gz file should be decompressed and used directly with the
 
 Assuming that your query sequences are present in the reference set, using these cutoffs should result in ~99% correct assignments:
 
-Rank | 500bp+ | 400 bp | 300 bp | 200 bp | 100 bp 
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp 
 --- |:---:|:---:|:---:|:---:|:---:
 Superkingdom | 0 | 0 | 0 | 0 | 0 
 Kingdom | 0 | 0 | 0 | 0 | 0 
@@ -29,7 +29,7 @@ NA = No cutoff available will result in 99% correct assignments
 
 To work with assignments to the family rank, assuming that your query sequences are present in the reference set, using these cutoffs should result in ~95% correct assignments:
 
-Rank | 500bp+ | 400 bp | 300 bp | 200 bp | 100 bp  
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp  
 --- |:---:|:---:|:---:|:---:|:---:  
 Superkingdom | 0 | 0 | 0 | 0 | 0  
 Kingdom | 0 | 0 | 0 | 0 | 0  
