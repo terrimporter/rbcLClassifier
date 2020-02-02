@@ -12,24 +12,26 @@ Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA seque
 
 ### v1
 
-The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments to the genus rank.  
+The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments.  
 
-Assuming that your query sequences are present in the reference set, using these cutoffs should result in ~99% correct assignments:
+Taxonomic assignment results should be filtered according to their bootstrap support values to reduce false positive assignments. Cutoffs are based on leave-one-sequence-out testing of non-singleton genera. Here we recommend MINIMUM bootstrap cutoffs according to query length and assignment rank. Assuming your query sequences are represented in the reference set, using the cutoffs presented in the first table below should ensure 99% accuracy. If you wish to cast a wider net, you can use the second table below for 95% accuracy.
+
+Bootstrap support cutoffs, 99% accuracy:
 
 Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp 
 --- |:---:|:---:|:---:|:---:|:---:
 Superkingdom | 0 | 0 | 0 | 0 | 0 
 Kingdom | 0 | 0 | 0 | 0 | 0 
 Phylum | 0 | 0 | 0 | 0 | 0   
-Class |  | 70 | NA | NA | NA 
-Order |  | NA | NA | NA | NA 
-Family |  | NA | NA | NA | NA 
-Genus |  | NA | NA | NA | NA  
-Species |  | NA | NA| NA | NA 
+Class | - | 70 | NA | NA | NA 
+Order | - | NA | NA | NA | NA 
+Family | - | NA | NA | NA | NA 
+Genus | - | NA | NA | NA | NA  
+Species | - | NA | NA| NA | NA 
 
 NA = No cutoff available will result in 99% correct assignments
 
-To work with assignments to the family rank, assuming that your query sequences are present in the reference set, using these cutoffs should result in ~95% correct assignments:
+Bootstrap support cutoffs, 95% accuracy:
 
 Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp  
 --- |:---:|:---:|:---:|:---:|:---:  
@@ -39,8 +41,8 @@ Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0  
 Order | 0 | 0 | 0 | 0 | 20  
 Family | 0 | 0 | 0 | 0 | 50  
-Genus |  | NA | NA | NA | NA   
-Species |  | NA | NA | NA | NA  
+Genus | - | NA | NA | NA | NA   
+Species | - | NA | NA | NA | NA  
 
 NA = No cutoff available will result in 95% correct assignments
 
@@ -73,4 +75,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: January 24, 2020
+Last updated: February 2, 2020
