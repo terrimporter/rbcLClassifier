@@ -23,11 +23,11 @@ Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp
 Superkingdom | 0 | 0 | 0 | 0 | 0 
 Kingdom | 0 | 0 | 0 | 0 | 0 
 Phylum | 0 | 0 | 0 | 0 | 0   
-Class | - | 70 | NA | NA | NA 
-Order | - | NA | NA | NA | NA 
-Family | - | NA | NA | NA | NA 
-Genus | - | NA | NA | NA | NA  
-Species | - | NA | NA| NA | NA 
+Class | NA | 70 | NA | NA | NA 
+Order | NA | NA | NA | NA | NA 
+Family | NA | NA | NA | NA | NA 
+Genus | NA | NA | NA | NA | NA  
+Species | NA | NA | NA| NA | NA 
 
 NA = No cutoff available will result in 99% correct assignments
 
@@ -41,8 +41,8 @@ Phylum | 0 | 0 | 0 | 0 | 0
 Class | 0 | 0 | 0 | 0 | 0  
 Order | 0 | 0 | 0 | 0 | 20  
 Family | 0 | 0 | 0 | 0 | 50  
-Genus | - | NA | NA | NA | NA   
-Species | - | NA | NA | NA | NA  
+Genus | 95 | NA | NA | NA | NA   
+Species | NA | NA | NA | NA | NA  
 
 NA = No cutoff available will result in 95% correct assignments
 
@@ -75,4 +75,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: February 2, 2020
+Last updated: February 24, 2020
