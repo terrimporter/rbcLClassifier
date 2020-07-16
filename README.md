@@ -24,6 +24,8 @@ java -Xmx8g -jar /path/to/rdp_classifier_2.12/dist/classifier.jar classify -t /p
 
 The rbcLv1_trained.tar.gz file should be decompressed and used directly with the RDP Classifier to make taxonomic assignments.  
 
+RbcL records were mined from the NCBI nucleotide database [Jan. 10/20]. Sequences were filtered to retain only those that are 500bp+, contain no non-nucleotide characters, and have Linnean binomial species names.  Sequences were screened for bacterial contaminants. Bacterial outgroup sequences were added.
+
 Taxonomic assignment results should be filtered according to their bootstrap support values to reduce false positive assignments. Cutoffs are based on leave-one-sequence-out testing of non-singleton genera. Here we recommend MINIMUM bootstrap cutoffs according to query length and assignment rank. Assuming your query sequences are represented in the reference set, using the cutoffs presented in the first table below should ensure 99% accuracy. If you wish to cast a wider net, you can use the second table below for 95% accuracy.
 
 Bootstrap support cutoffs, 99% accuracy:
@@ -85,4 +87,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: April 3, 2020
+Last updated: July 16, 2020
