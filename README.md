@@ -8,15 +8,31 @@ If you use this rbcL reference set in a publication, please add a link to this p
 
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.  Applied and Environmental Microbiology, 73: 5261.
 
-# How to use
+# Quick Start
+```linux
+############ Install the RDP classifier if you need it
+# The easiest way to install the RDP classifier v2.13 is using conda
+conda install -c bioconda rdp_classifier
+# Alternatively, you can install from SourceForge and run with java if you don't use conda
+wget https://sourceforge.net/projects/rdp-classifier/files/rdp-classifier/rdp_classifier_2.13.zip
+# decompress it
+unzip rdp_classifier_2.13
+# record path to classifier.jar ex. /path/to/rdp_classifier_2.13/dist/classifier.jar
 
-Decompress the tar.gz file:
+############ Get the latest rbcL training set
+wget https://github.com/terrimporter/rbcLClassifier/releases/download/v1/rbcLv1_trained.tar.gz
 
-$ tar -xvzf FileName.tar.gz
+# decompress it
+tar -xzf rbcLv1_trained.tar.gz
 
-Use with the RDP classifier:
+# record the path to the rRNAClassifier.properties file ex. /path/to/mydata_trained/rRNAClassifier.properties
 
-java -Xmx8g -jar /path/to/rdp_classifier_2.12/dist/classifier.jar classify -t /path/to/mydata_trained/rRNAClassifier.properties -o ClassifiedQueryFilename QueryFilename
+############ Run the RDP Classifier 
+# If it was installed using conda, run it like this:
+rdp_classifier -Xmx8g classify -t /path/to/mydata_trained/rRNAClassifier.properties -o rdp.output query.fasta
+# Otherwise run it using java like this:
+java -Xmx8g -jar /path/to/rdp_classifier_2.13/classifier.jar -t /path/to/mydata_trained/rRNAClassifier.properties -o rdp.output query.fasta
+```
 
 # Releases
 
@@ -87,4 +103,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: July 16, 2020
+Last updated: March 31, 2021
