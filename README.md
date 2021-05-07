@@ -1,4 +1,4 @@
-# Introduction
+# Eukaryote RbcL Reference Set For The RDP Classifier
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741459.svg)](https://doi.org/10.5281/zenodo.4741459)  
 
@@ -7,7 +7,7 @@ This repository contains training sets that can be used with the Ribosomal Datab
 # How to cite
 
 You can cite this repository directly:  
-rbcL Classifier, DOI: 10.5281/zenodo.4741459  
+Teresita M. Porter. (2020, January 14). Eukaryote RbcL Reference Set For The RDP Classifier (Version v1.0.1). Zenodo. http://doi.org/10.5281/zenodo.4741459  
 
 You should also cite the Ribosomal Database Classifier:  
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.  Applied and Environmental Microbiology, 73: 5261.
