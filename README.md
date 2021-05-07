@@ -1,11 +1,15 @@
 # Introduction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741459.svg)](https://doi.org/10.5281/zenodo.4741459)  
+
 This repository contains training sets that can be used with the Ribosomal Database Project classifier (Wang et al., 2007) to taxonomically assign Eukaryote rbcL cpDNA sequences including plants.  The latest release can be downloaded from https://github.com/terrimporter/rbcLClassifier/releases .  The trained files ready to be used with the RDP Classifier are available as well as the original files used for training (a taxonomy file and a FASTA file) are available as 'version-ref'.  A diatom-specific rbcL classifier is also available at https://github.com/terrimporter/rbcLdiatomClassifier .
 
 # How to cite
 
-If you use this rbcL reference set in a publication, please add a link to this page to acknowledge this reference database and if you use the rbcL classifier, please cite:
+You can cite this repository directly:  
+rbcL Classifier, DOI: 10.5281/zenodo.4741459  
 
+You should also cite the Ribosomal Database Classifier:  
 Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.  Applied and Environmental Microbiology, 73: 5261.
 
 # Quick Start
@@ -103,4 +107,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 We acknowledge support from the Canadian federal Genomics Research & Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: March 31, 2021
+Last updated: May 6, 2021
