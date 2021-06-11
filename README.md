@@ -78,6 +78,36 @@ Species | NA | NA | NA | NA | NA
 
 NA = No cutoff available will result in 95% correct assignments
 
+Bootstrap support cutoffs, 90% accuracy:  
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp  
+--- |:---:|:---:|:---:|:---:|:---:  
+Superkingdom | 0 | 0 | 0 | 0 | 0  
+Kingdom | 0 | 0 | 0 | 0 | 0  
+Phylum | 0 | 0 | 0 | 0 | 0   
+Class | 0 | 0 | 0 | 0 | 0  
+Order | 0 | 0 | 0 | 0 | 0  
+Family | 0 | 0 | 0 | 0 | 0  
+Genus | 70 | 70 | 80 | 95 | NA   
+Species | NA | NA | NA | NA | NA  
+
+NA = No cutoff available will result in 90% correct assignments
+
+Bootstrap support cutoffs, 80% accuracy:  
+
+Rank | 500 bp+ | 400 bp | 300 bp | 200 bp | 100 bp  
+--- |:---:|:---:|:---:|:---:|:---:  
+Superkingdom | 0 | 0 | 0 | 0 | 0  
+Kingdom | 0 | 0 | 0 | 0 | 0  
+Phylum | 0 | 0 | 0 | 0 | 0   
+Class | 0 | 0 | 0 | 0 | 0  
+Order | 0 | 0 | 0 | 0 | 0  
+Family | 0 | 0 | 0 | 0 | 0  
+Genus | 0 | 0 | 0 | 40 | 80   
+Species | NA | NA | NA | NA | NA  
+
+NA = No cutoff available will result in 80% correct assignments  
+
 ### v1-ref
 
 The rbcLv1-ref_training.tar.gz file should be decompressed.  The folder contains the original taxonomy and fasta files that are included here for reference only.  Sequences were mined from the NCBI nucleotide database in January 2020 and only includes sequences identified to the species rank that are at least 500bp long.  The sequences have been screened to remove any potential bacterial contaminant sequences.  Taxonomic composition is largely Eukaryota with some Bacterial outgroup taxa.  
